@@ -1,0 +1,16 @@
+STM32 FLASHv1 driver.
+
+Driver capability:
+
+- Supports internal flash write as explained in ST's PM0075 (CD00283419).
+- Currently does not support bank2 of STM32F1xx_XL devices.
+
+Microcontroller support:
+
+- STM32F101xx;
+- STM32F102xx;
+- STM32F103xx;
+- STM32F105xx;
+- STM32F107xx.
+
+Tested only on a STM32F103_MD
